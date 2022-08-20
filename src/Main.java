@@ -44,14 +44,11 @@ public class Main {
         int salaryIncreasedByMasha = payDayMasha / 10;
         int salaryIncreasedByDenis = payDayDenis / 10;
         int salaryIncreasedByKristina = payDayKristina / 10;
-        System.out.println("Зарплата Маши изменилась на " + salaryIncreasedByMasha + " руб");
-        System.out.println("Зарплата Дениса изменилась на " + salaryIncreasedByDenis + " руб");
-        System.out.println("Зарплата Кристины изменилась на " + salaryIncreasedByKristina + " руб");
         payDayMasha = payDayMasha + salaryIncreasedByMasha;
         payDayDenis = payDayDenis + salaryIncreasedByDenis;
         payDayKristina = payDayKristina + salaryIncreasedByKristina;
-        System.out.println("Новая зарплата Маши равна " + payDayMasha + " руб");
-        System.out.println("Новая зарплата Дениса равна " + payDayDenis + " руб");
-        System.out.println("Новая зарплата Кристины равна " + payDayKristina + " руб");
+        System.out.println("маша теперь получает " + payDayMasha + " руб. " + "Годовой доход вырос на " + salaryIncreasedByMasha * 12 + " руб");
+        System.out.println("Дениса теперь получает " + payDayDenis + " руб. " + "Годовой доход вырос на " + salaryIncreasedByDenis * 12 + " руб");
+        System.out.println("Кристины теперь получает " + payDayKristina + " руб. " + "Годовой доход вырос на " + salaryIncreasedByKristina * 12 + " руб");
     }
 }
