@@ -31,10 +31,12 @@ public class Main {
         int weightGoal = 7000;
         int weight250 = 250;
         int weight500 = 500;
-        int dayWith250 = weightGoal / weight250;
-        System.out.println("За " + dayWith250 + " дней если будет терять по 250 грамм");
-        int dayWith500 = weightGoal / weight500;
-        System.out.println("За " + dayWith500 + " дней если будет терять по 500 грамм");
+        int maxDay = weightGoal / weight250;
+        System.out.println("За " + maxDay + " дней если будет терять по 250 грамм");
+        int minDay = weightGoal / weight500;
+        System.out.println("За " + minDay + " дней если будет терять по 500 грамм");
+        int avgDay = (minDay + maxDay) / 2;
+        System.out.println("В среднем потребуется " + avgDay + " дней");
 
         int payDayMasha = 67760;
         int payDayDenis = 83690;
